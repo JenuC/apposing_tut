@@ -1,0 +1,49 @@
+NOTES
+
+JAVA
+2025-11-15 12:08:44 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac) java -version
+2025-11-15 12:08:52 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac) scoop -version
+2025-11-15 12:09:24 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac) where.exe java
+2025-11-15 12:09:39 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut) cd .\apposing_tut\
+2025-11-15 12:10:01 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut) mkdir cp_test
+2025-11-15 12:13:36 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+2025-11-15 12:17:36 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test)    Invoke-RestMethod get.scoop.sh | Invoke-Expression
+2025-11-15 12:17:43 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) scoop bucket add java
+2025-11-15 12:18:01 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) scoop bucket add extras
+2025-11-15 12:18:20 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) scoop search jdk
+2025-11-15 12:19:38 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) scoop search windirstat
+2025-11-15 12:20:24 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) scoop install microsoft21-jdk
+2025-11-15 12:22:50 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) scoop list
+2025-11-15 12:22:59 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) java -version
+2025-11-15 12:29:56 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn
+2025-11-15 12:30:02 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) scoop search maven
+2025-11-15 12:30:33 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) scoop install maven
+2025-11-15 12:36:08 [varghesechac@BOCKWK-00103W 23848] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn -Dexec.mainClass=appose.demo.CellposeUvDemo exec:java
+2025-11-15 12:39:07 [varghesechac@BOCKWK-00103W 23848] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn "-Dexec.mainClass=appose.demo.CellposeUvDemo" exec:java
+2025-11-15 12:41:58 [varghesechac@BOCKWK-00103W 23848] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn -q -DskipTests compile
+2025-11-15 12:43:00 [varghesechac@BOCKWK-00103W 23848] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn clean
+2025-11-15 12:44:15 [varghesechac@BOCKWK-00103W 23848] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn pacakge
+2025-11-15 12:44:40 [varghesechac@BOCKWK-00103W 17632] (C:\Users\varghesechac\code\apposing_tut\cp_test) cd 'c:\Users\varghesechac\code\apposing_tut\cp_test' ; mvn -X compile
+2025-11-15 12:45:27 [varghesechac@BOCKWK-00103W 17632] (C:\Users\varghesechac\code\apposing_tut\cp_test) jar tf "C:\Users\varghesechac\.m2\repository\org\apposed\appose\0.8.0\appose-0.8.0.jar"
+2025-11-15 12:45:47 [varghesechac@BOCKWK-00103W 17632] (C:\Users\varghesechac\code\apposing_tut\cp_test) cd 'c:\Users\varghesechac\code\apposing_tut\cp_test' ; mvn -DskipTests -q compile
+2025-11-15 12:46:02 [varghesechac@BOCKWK-00103W 17632] (C:\Users\varghesechac\code\apposing_tut\cp_test) cd 'c:\Users\varghesechac\code\apposing_tut\cp_test' ; mvn -DskipTests compile
+2025-11-15 12:46:40 [varghesechac@BOCKWK-00103W 17632] (C:\Users\varghesechac\code\apposing_tut\cp_test) cd 'c:\Users\varghesechac\code\apposing_tut\cp_test' ; mvn -DskipTests -DtrimStackTrace=false compile
+2025-11-15 12:53:35 [varghesechac@BOCKWK-00103W 17632] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn "-Dexec.mainClass=appose.demo.CellposeUvDemo" exec:java
+2025-11-15 12:56:13 [varghesechac@BOCKWK-00103W 17632] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn clean compile
+
+PYTHON
+025-11-16 08:07:11 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) uv venv
+2025-11-16 08:07:11 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) .\.venv\Scripts\activate
+2025-11-16 08:10:05 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) uv pip install --python ".\share\appose\cellpose3-uv" cellpose==3.* appose -vvv
+2025-11-16 08:43:57 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) C:\Users\varghesechac\.local\share\appose\cellpose3-uv\Scripts\python.exe -c "import sys; import cellpose; print(cellpose.version)"
+
+2025-11-16 11:47:08 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) C:\Users\varghesechac\.local\share\appose\cellpose3-uv\Scripts\activate.ps1
+2025-11-16 11:50:34 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) cls
+2025-11-16 12:09:36 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) Set-Alias w where.exe
+2025-11-16 12:13:17 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) w python
+2025-11-16 12:13:27 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) python -m pip install jupyter lab
+2025-11-16 12:13:38 [varghesechac@BOCKWK-00103W 29264] (D:\UserData\JenuChacko) uv pip install jupyterlab
+2025-11-16 12:17:34 [varghesechac@BOCKWK-00103W 21848] (C:\Users\varghesechac\code\apposing_tut\cp_test) Stop-Process -Name 'python', 'pythonw' -Force -ErrorAction SilentlyContinue
+
+2025-11-16 16:17:45 [varghesechac@BOCKWK-00103W 17632] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn clean compile
+2025-11-16 16:17:49 [varghesechac@BOCKWK-00103W 17632] (C:\Users\varghesechac\code\apposing_tut\cp_test) mvn "-Dexec.mainClass=appose.demo.CellposeUvDemo" exec:java
