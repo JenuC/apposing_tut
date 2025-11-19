@@ -1,0 +1,6 @@
+target
+qupath/TestProject/data
+qupath/TestProject/classifiers
+qupath/TestProject/project.qpproj
+qupath/TestProject/project.qpproj.backup
+*.Identifier
