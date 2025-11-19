@@ -1,0 +1,9 @@
+{
+  // Ensure the Java language server and project model use the Maven source folder
+  "java.project.sourcePaths": [
+    "src/main/java"
+  ],
+
+  // Optional: prefer Maven project import (should already be true for VS Code Java)
+  "java.import.maven.enabled": true
+}
