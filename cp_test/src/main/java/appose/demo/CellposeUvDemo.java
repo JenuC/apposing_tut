@@ -25,10 +25,10 @@ public class CellposeUvDemo {
 
         String checkScript = """
             import sys
-            #import cellpose
-            #print(cellpose.version)
-            #print(task)
-            #task.outputs["cellpose_version"] = cellpose.version
+            import cellpose
+            print(cellpose.version)
+            print(task)
+            task.outputs["cellpose_version"] = cellpose.version
             task.outputs["python_exe"] = sys.executable
             """;
 
